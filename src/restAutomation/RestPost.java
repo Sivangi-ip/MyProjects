@@ -23,10 +23,10 @@ public class RestPost {
 		
 			    @SuppressWarnings("resource")
 				HttpClient client = new DefaultHttpClient();
-			    HttpPost post = new HttpPost("http://vogellac2dm.appspot.com/register");
+			    HttpPost post = new HttpPost("http://gmail.com");
 			    try {
 			      List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
-			      nameValuePairs.add(new BasicNameValuePair("registrationid",
+			      nameValuePairs.add(new BasicNameValuePair("loginid",
 			          "123456789"));
 			      post.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 			 
