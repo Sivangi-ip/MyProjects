@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ebaysuite" duration-ms="300" started-at="2016-09-24T21:22:53Z" finished-at="2016-09-24T21:22:53Z">
+    <groups>
+    </groups>
+    <test name="functTest" duration-ms="300" started-at="2016-09-24T21:22:53Z" finished-at="2016-09-24T21:22:53Z">
+      <class name="com.test.HomePageTest">
+        <test-method status="FAIL" signature="beforeSuite()[pri:0, instance:com.test.HomePageTest@56f4468b]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2016-09-24T14:22:53Z" finished-at="2016-09-24T14:22:53Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/gargoylesoftware/htmlunit/html/HtmlElement]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/gargoylesoftware/htmlunit/html/HtmlElement
+	at com.util.PageDriver.startHtml(PageDriver.java:54)
+	at com.util.PageDriver.start(PageDriver.java:35)
+	at com.util.PageDriver.<init>(PageDriver.java:20)
+	at com.base.BaseTest.beforeSuite(BaseTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.ClassNotFoundException: com.gargoylesoftware.htmlunit.html.HtmlElement
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="SKIP" signature="beforeclass()[pri:0, instance:com.test.HomePageTest@56f4468b]" name="beforeclass" is-config="true" duration-ms="0" started-at="2016-09-24T14:22:53Z" finished-at="2016-09-24T14:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="SKIP" signature="Action1()[pri:0, instance:com.test.HomePageTest@56f4468b]" name="Action1" duration-ms="2" started-at="2016-09-24T14:22:53Z" finished-at="2016-09-24T14:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Action1 -->
+        <test-method status="SKIP" signature="Testsociallinks()[pri:0, instance:com.test.HomePageTest@56f4468b]" name="Testsociallinks" duration-ms="0" started-at="2016-09-24T14:22:53Z" finished-at="2016-09-24T14:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testsociallinks -->
+        <test-method status="SKIP" signature="loginlink()[pri:0, instance:com.test.HomePageTest@56f4468b]" name="loginlink" duration-ms="1" started-at="2016-09-24T14:22:53Z" finished-at="2016-09-24T14:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlink -->
+        <test-method status="SKIP" signature="navbar1()[pri:0, instance:com.test.HomePageTest@56f4468b]" name="navbar1" duration-ms="0" started-at="2016-09-24T14:22:53Z" finished-at="2016-09-24T14:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbar1 -->
+        <test-method status="SKIP" signature="screenshot2()[pri:0, instance:com.test.HomePageTest@56f4468b]" name="screenshot2" duration-ms="0" started-at="2016-09-24T14:22:53Z" finished-at="2016-09-24T14:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot2 -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.test.HomePageTest@56f4468b]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-09-24T14:22:54Z" finished-at="2016-09-24T14:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.test.HomePageTest -->
+    </test> <!-- functTest -->
+  </suite> <!-- ebaysuite -->
+</testng-results>

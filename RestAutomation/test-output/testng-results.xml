@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestSuite" duration-ms="24" started-at="2016-10-02T22:16:30Z" finished-at="2016-10-02T22:16:30Z">
+    <groups>
+    </groups>
+    <test name="GitTest" duration-ms="24" started-at="2016-10-02T22:16:30Z" finished-at="2016-10-02T22:16:30Z">
+    </test> <!-- GitTest -->
+  </suite> <!-- RestSuite -->
+</testng-results>
