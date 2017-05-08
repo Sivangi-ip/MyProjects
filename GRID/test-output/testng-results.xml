@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Main Test Suite" duration-ms="89674" started-at="2017-03-07T03:17:52Z" finished-at="2017-03-07T03:19:21Z">
+    <groups>
+    </groups>
+    <test name="Grid firefox Test" duration-ms="78767" started-at="2017-03-07T03:17:52Z" finished-at="2017-03-07T03:19:11Z">
+      <class name="gridExample.ParallelTestA">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:gridExample.ParallelTestA@2c9f9fb0]" name="setUp" is-config="true" duration-ms="35123" started-at="2017-03-06T19:17:52Z" finished-at="2017-03-06T19:18:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitleInFirefox()[pri:0, instance:gridExample.ParallelTestA@2c9f9fb0]" name="testGooglePageTitleInFirefox" duration-ms="20715" started-at="2017-03-06T19:18:27Z" finished-at="2017-03-06T19:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePageTitleInFirefox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:gridExample.ParallelTestA@2c9f9fb0]" name="tearDown" is-config="true" duration-ms="22885" started-at="2017-03-06T19:18:48Z" finished-at="2017-03-06T19:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gridExample.ParallelTestA -->
+    </test> <!-- Grid firefox Test -->
+    <test name="Grid chrome Test" duration-ms="89660" started-at="2017-03-07T03:17:52Z" finished-at="2017-03-07T03:19:21Z">
+      <class name="gridExample.ParallelTestB">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:gridExample.ParallelTestB@7c0e2abd]" name="setUp" is-config="true" duration-ms="18469" started-at="2017-03-06T19:17:52Z" finished-at="2017-03-06T19:18:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitleInChrome()[pri:0, instance:gridExample.ParallelTestB@7c0e2abd]" name="testGooglePageTitleInChrome" duration-ms="32319" started-at="2017-03-06T19:18:10Z" finished-at="2017-03-06T19:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePageTitleInChrome -->
+        <test-method status="PASS" signature="testSearchGoogle()[pri:0, instance:gridExample.ParallelTestB@7c0e2abd]" name="testSearchGoogle" duration-ms="24390" started-at="2017-03-06T19:18:43Z" finished-at="2017-03-06T19:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchGoogle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:gridExample.ParallelTestB@7c0e2abd]" name="tearDown" is-config="true" duration-ms="14414" started-at="2017-03-06T19:19:07Z" finished-at="2017-03-06T19:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gridExample.ParallelTestB -->
+    </test> <!-- Grid chrome Test -->
+  </suite> <!-- Main Test Suite -->
+</testng-results>

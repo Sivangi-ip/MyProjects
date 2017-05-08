@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Main Test Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Grid chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="gridExample.ParallelTestB">
+        <methods>
+          <include name="testGooglePageTitleInChrome"/>
+          <include name="testSearchGoogle"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- gridExample.ParallelTestB -->
+      <class name="gridExample.ParallelTestA">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- gridExample.ParallelTestA -->
+    </classes>
+  </test> <!-- Grid chrome Test(failed) -->
+  <test name="Grid firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="gridExample.ParallelTestB">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- gridExample.ParallelTestB -->
+      <class name="gridExample.ParallelTestA">
+        <methods>
+          <include name="testGooglePageTitleInFirefox"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- gridExample.ParallelTestA -->
+    </classes>
+  </test> <!-- Grid firefox Test(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
